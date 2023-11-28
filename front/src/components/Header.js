@@ -1,10 +1,24 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSackDollar } from '@fortawesome/free-solid-svg-icons'
+import axios from "axios";
 
 import '../styles/Header.css'
 
 const Header = (props) => {
+    const [loading, setLoading] = useState(false);
+    const [novedades, setNovedades] = useState([]);
+
+    useEffect(() => {
+        const cargarNovedades = async () => {
+            setLoading(true);
+            const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/novedades`);
+            setNovedades(response.data);
+            setLoading(false);
+        };
+        cargarNovedades();
+    }, []);
     return (
         <header className='holder'>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"

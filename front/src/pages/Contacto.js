@@ -26,7 +26,7 @@ const Contacto = (props) => {
         e.preventDefault();
         setMsg('');
         setSending(true)
-        const response = await axios.post('http://localhost:3000/api/contacto', formData);
+        const response = await axios.post(`http://localhost:3000/api/contacto`, formData);
         setSending(false);
         setMsg(response.data.message);
         if (response.data.error === false) {
@@ -46,7 +46,7 @@ const Contacto = (props) => {
                     </p>
                     <p>
                         <label for='email'>Email</label>
-                        <input className='input' type='text' name='email' value={formData.email} onChange={handleChange}/>
+                        <input className='input' type='email' name='email' value={formData.email} onChange={handleChange}/>
                     </p>
                     <p>
                         <label for='telefono'>Telefono</label>

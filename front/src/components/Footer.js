@@ -12,9 +12,9 @@ const Footer = (props) => {
             <div className="caja">
                 <div className="siguenos container">
                     <p>Siguenos en nuestras redes sociales:</p>
-                    <a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebook} beat size="2xl" style={{ color: "#527dc7", }} /></a>
-                    <a href="https://twitter.com/"><FontAwesomeIcon icon={faXTwitter} beat size="2xl" style={{ color: "#0f0f10", }} /></a>
-                    <a href="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} beat size="2xl" style={{ color: "#f010f4", }} /></a>
+                    <a href="https://www.facebook.com/" target="_blank" rel='noopener noreferrer'><FontAwesomeIcon icon={faFacebook} beat size="2xl" style={{ color: "#527dc7", }} /></a>
+                    <a href="https://twitter.com/" target="_blank" rel='noopener noreferrer'><FontAwesomeIcon icon={faXTwitter} beat size="2xl" style={{ color: "#0f0f10", }} /></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel='noopener noreferrer'><FontAwesomeIcon icon={faInstagram} beat size="2xl" style={{ color: "#f010f4", }} /></a>
                 </div>
                 <div className="direccion container">
                     <p>Sucursales:</p>
