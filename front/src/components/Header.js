@@ -7,18 +7,6 @@ import axios from "axios";
 import '../styles/Header.css'
 
 const Header = (props) => {
-    const [loading, setLoading] = useState(false);
-    const [novedades, setNovedades] = useState([]);
-
-    useEffect(() => {
-        const cargarNovedades = async () => {
-            setLoading(true);
-            const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/novedades`);
-            setNovedades(response.data);
-            setLoading(false);
-        };
-        cargarNovedades();
-    }, []);
     return (
         <header className='holder'>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -31,7 +19,7 @@ const Header = (props) => {
             </div>
             <div className="boton">
                 <button type="submit" className="btn btn-outline-danger btn-lg">
-                    <a href="http://localhost:3000/admin/novedades" target="_blank" rel='noopener noreferrer'>
+                    <a href="https://bellissima-back-733860a18870.herokuapp.com/admin/login" target="_blank" rel='noopener noreferrer'>
                         <h3>Ingresar  <i class="fa-solid fa-right-to-bracket"></i></h3>
                     </a>
                 </button>

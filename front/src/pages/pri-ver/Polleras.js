@@ -7,7 +7,7 @@ const Polleras = (props) =>{
     return (
         <div className="catalogo">
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pollera1.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pollera1.jpg" />
                 <Card.Body>
                     <Card.Title>Pollera 1</Card.Title>
                     <Card.Text>
@@ -25,7 +25,7 @@ const Polleras = (props) =>{
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pollera2.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pollera2.jpg" />
                 <Card.Body>
                     <Card.Title>Pollera 2</Card.Title>
                     <Card.Text>
@@ -43,7 +43,7 @@ const Polleras = (props) =>{
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pollera3.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pollera3.jpg" />
                 <Card.Body>
                     <Card.Title>Pollera 3</Card.Title>
                     <Card.Text>
@@ -61,7 +61,7 @@ const Polleras = (props) =>{
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pollera4.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pollera4.jpg" />
                 <Card.Body>
                     <Card.Title>Pollera 4</Card.Title>
                     <Card.Text>
@@ -79,7 +79,7 @@ const Polleras = (props) =>{
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pollera5.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pollera5.jpg" />
                 <Card.Body>
                     <Card.Title>Pollera 5</Card.Title>
                     <Card.Text>
@@ -97,7 +97,7 @@ const Polleras = (props) =>{
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pollera6.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pollera6.jpg" />
                 <Card.Body>
                     <Card.Title>Pollera 6</Card.Title>
                     <Card.Text>
@@ -115,7 +115,7 @@ const Polleras = (props) =>{
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pollera7.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pollera7.jpg" />
                 <Card.Body>
                     <Card.Title>Pollera 7</Card.Title>
                     <Card.Text>
@@ -133,7 +133,7 @@ const Polleras = (props) =>{
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pollera8.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pollera8.jpg" />
                 <Card.Body>
                     <Card.Title>Pollera 8</Card.Title>
                     <Card.Text>
@@ -151,7 +151,7 @@ const Polleras = (props) =>{
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pollera9.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pollera9.jpg" />
                 <Card.Body>
                     <Card.Title>Pollera 9</Card.Title>
                     <Card.Text>

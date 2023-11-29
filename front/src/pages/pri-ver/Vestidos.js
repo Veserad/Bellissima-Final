@@ -7,7 +7,7 @@ const Vestidos = (props) => {
     return (
         <div className="catalogo">
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Vestido1.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/vestido1.jpg" />
                 <Card.Body>
                     <Card.Title>Vestido 1</Card.Title>
                     <Card.Text>
@@ -25,7 +25,7 @@ const Vestidos = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Vestido2.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/vestido2.jpg" />
                 <Card.Body>
                     <Card.Title>Vestido 2</Card.Title>
                     <Card.Text>
@@ -43,7 +43,7 @@ const Vestidos = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Vestido3.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/vestido3.jpg" />
                 <Card.Body>
                     <Card.Title>Vestido 3</Card.Title>
                     <Card.Text>
@@ -61,7 +61,7 @@ const Vestidos = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Vestido4.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/vestido4.jpg" />
                 <Card.Body>
                     <Card.Title>Vestido 4</Card.Title>
                     <Card.Text>
@@ -79,7 +79,7 @@ const Vestidos = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Vestido5.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/vestido5.jpg" />
                 <Card.Body>
                     <Card.Title>Vestido 5</Card.Title>
                     <Card.Text>
@@ -97,7 +97,7 @@ const Vestidos = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Vestido6.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/vestido6.jpg" />
                 <Card.Body>
                     <Card.Title>Vestido 6</Card.Title>
                     <Card.Text>
@@ -115,7 +115,7 @@ const Vestidos = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Vestido7.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/vestido7.jpg" />
                 <Card.Body>
                     <Card.Title>Vestido 7</Card.Title>
                     <Card.Text>
@@ -133,7 +133,7 @@ const Vestidos = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Vestido8.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/vestido8.jpg" />
                 <Card.Body>
                     <Card.Title>Vestido 8</Card.Title>
                     <Card.Text>
@@ -151,7 +151,7 @@ const Vestidos = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Vestido9.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/vestido9.jpg" />
                 <Card.Body>
                     <Card.Title>Vestido 9</Card.Title>
                     <Card.Text>

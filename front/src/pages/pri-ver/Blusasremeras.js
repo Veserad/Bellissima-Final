@@ -7,7 +7,7 @@ const Blusasremeras = (props) => {
     return (
         <div className="catalogo">
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Blusa1.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/blusa1.jpg" />
                 <Card.Body>
                     <Card.Title>Blusa 1</Card.Title>
                     <Card.Text>
@@ -25,7 +25,7 @@ const Blusasremeras = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Blusa2.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/blusa2.jpg" />
                 <Card.Body>
                     <Card.Title>Blusa 2</Card.Title>
                     <Card.Text>
@@ -43,7 +43,7 @@ const Blusasremeras = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Blusa3.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/blusa3.jpg" />
                 <Card.Body>
                     <Card.Title>Blusa 3</Card.Title>
                     <Card.Text>
@@ -61,7 +61,7 @@ const Blusasremeras = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Blusa4.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/blusa4.jpg" />
                 <Card.Body>
                     <Card.Title>Blusa 4</Card.Title>
                     <Card.Text>
@@ -79,7 +79,7 @@ const Blusasremeras = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Blusa5.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/blusa5.jpg" />
                 <Card.Body>
                     <Card.Title>Blusa 5</Card.Title>
                     <Card.Text>

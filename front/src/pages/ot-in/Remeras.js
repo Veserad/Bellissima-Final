@@ -7,7 +7,7 @@ const Remeras = (props) => {
     return (
         <div className="catalogo">
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/ot-in/Remera1.jpg" />
+                <Card.Img variant="top" src="img/ot-in/remera1.jpg"/>
                 <Card.Body>
                     <Card.Title>Remera 1</Card.Title>
                     <Card.Text>
@@ -25,7 +25,7 @@ const Remeras = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/ot-in/Remera2.jpg" />
+                <Card.Img variant="top" src="img/ot-in/remera2.jpg"/>
                 <Card.Body>
                     <Card.Title>Remera 2</Card.Title>
                     <Card.Text>
@@ -43,7 +43,7 @@ const Remeras = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/ot-in/Remera3.jpg" />
+                <Card.Img variant="top" src="img/ot-in/remera3.jpg"/>
                 <Card.Body>
                     <Card.Title>Remera 3</Card.Title>
                     <Card.Text>
@@ -61,7 +61,7 @@ const Remeras = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/ot-in/Remera4.jpg" />
+                <Card.Img variant="top" src="img/ot-in/remera4.jpg"/>
                 <Card.Body>
                     <Card.Title>Remera 4</Card.Title>
                     <Card.Text>
@@ -79,7 +79,7 @@ const Remeras = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/ot-in/Remera5.jpg" />
+                <Card.Img variant="top" src="img/ot-in/remera5.jpg"/>
                 <Card.Body>
                     <Card.Title>Remera 5</Card.Title>
                     <Card.Text>
@@ -97,7 +97,7 @@ const Remeras = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/ot-in/Remera6.jpg" />
+                <Card.Img variant="top" src="img/ot-in/remera6.jpg"/>
                 <Card.Body>
                     <Card.Title>Remera 6</Card.Title>
                     <Card.Text>

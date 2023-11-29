@@ -43,7 +43,7 @@ const Pantalon = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/ot-in/Pantalon3.jpg" />
+                <Card.Img variant="top" src="img/ot-in/pantalon3.jpg" />
                 <Card.Body>
                     <Card.Title>Pantalon 3</Card.Title>
                     <Card.Text>

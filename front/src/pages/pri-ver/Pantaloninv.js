@@ -7,7 +7,7 @@ const Pantaloninv = (props) => {
     return (
         <div className="catalogo">
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pantalon1.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pantalon1.jpg" />
                 <Card.Body>
                     <Card.Title>Pantalon 1</Card.Title>
                     <Card.Text>
@@ -25,7 +25,7 @@ const Pantaloninv = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pantalon2.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pantalon2.jpg" />
                 <Card.Body>
                     <Card.Title>Pantalon 2</Card.Title>
                     <Card.Text>
@@ -43,7 +43,7 @@ const Pantaloninv = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pantalon3.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pantalon3.jpg" />
                 <Card.Body>
                     <Card.Title>Pantalon 3</Card.Title>
                     <Card.Text>
@@ -61,7 +61,7 @@ const Pantaloninv = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pantalon4.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pantalon4.jpg" />
                 <Card.Body>
                     <Card.Title>Pantalon 4</Card.Title>
                     <Card.Text>
@@ -79,7 +79,7 @@ const Pantaloninv = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pantalon5.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pantalon5.jpg" />
                 <Card.Body>
                     <Card.Title>Pantalon 5</Card.Title>
                     <Card.Text>
@@ -97,7 +97,7 @@ const Pantaloninv = (props) => {
             </Card>
 
             <Card className='Card' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img/pri-ver/Pantalon6.jpg" />
+                <Card.Img variant="top" src="img/pri-ver/pantalon6.jpg" />
                 <Card.Body>
                     <Card.Title>Pantalon 6</Card.Title>
                     <Card.Text>
