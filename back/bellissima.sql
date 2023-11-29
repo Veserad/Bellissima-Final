@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 27-11-2023 a las 19:30:18
+-- Tiempo de generación: 29-11-2023 a las 14:45:22
 -- Versión del servidor: 8.0.31
 -- Versión de PHP: 8.0.26
 
@@ -31,20 +31,19 @@ DROP TABLE IF EXISTS `novedades`;
 CREATE TABLE IF NOT EXISTS `novedades` (
   `id` int NOT NULL AUTO_INCREMENT,
   `titulo` varchar(250) NOT NULL,
-  `subtitulo` text NOT NULL,
   `cuerpo` text NOT NULL,
   `img_id` varchar(250) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb3;
+) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb3;
 
 --
 -- Volcado de datos para la tabla `novedades`
 --
 
-INSERT INTO `novedades` (`id`, `titulo`, `subtitulo`, `cuerpo`, `img_id`) VALUES
-(1, 'Ingreso de nueva colección Primavera-Verano', 'No te quedes sin actualizar tu colección a la última moda!', 'Descubrí las principales tendencias en moda de ropa para mujer primavera verano 2023 de Argentina. Prepárate para actualizar tu guardarropa para la nueva temporada con la ropa que se usara en el verano 2023 con estas tendencias de la moda más destacadas en el street style de las principales capitales de la moda internacional', 'hqmgucb6ehn4sy198dwx'),
-(15, '¡El Black Friday se acerca!', '', 'En Bellissima, tu tienda de moda, estamos tan ilusionados con la llegada del Black Friday 2023 que hemos preparado grandes descuentos en calzado, ropa y accesorios que no querrás perderte para estar siempre cómodo, moderno y a la moda.\r\n\r\n', 'txvai6u6ri1kk3lmmziq'),
-(16, '¡Ingresos de Maquillaje!', '', '¡Próximamente nuestra tienda se expande!\r\nHemos decidido sumar la venta de make up', 'fgym9womdosy7jtscroc');
+INSERT INTO `novedades` (`id`, `titulo`, `cuerpo`, `img_id`) VALUES
+(1, 'Ingreso de nueva colección Primavera-Verano', 'Descubrí las principales tendencias en moda de ropa para mujer primavera verano 2023 de Argentina. Prepárate para actualizar tu guardarropa para la nueva temporada con la ropa que se usara en el verano 2023 con estas tendencias de la moda más destacadas en el street style de las principales capitales de la moda internacional', 'hqmgucb6ehn4sy198dwx'),
+(15, '¡El Black Friday se acerca!', 'En Bellissima, tu tienda de moda, estamos tan ilusionados con la llegada del Black Friday 2023 que hemos preparado grandes descuentos en calzado, ropa y accesorios que no querrás perderte para estar siempre cómodo, moderno y a la moda.\r\n\r\n', 'txvai6u6ri1kk3lmmziq'),
+(16, '¡Ingresos de Maquillaje!', '¡Próximamente nuestra tienda se expande!\r\nHemos decidido sumar la venta de make up', 'fgym9womdosy7jtscroc');
 
 -- --------------------------------------------------------
 
